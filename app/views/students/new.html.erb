@@ -1,0 +1,18 @@
+<br>
+<div class="container">
+  <div class="card">
+
+    <div class="card-header" align="center">
+      <h1>Tambah Siswa Baru</h1>
+    </div>
+
+    <div class="card-body">
+      <%= render 'form', student: @student %>
+    </div>
+
+    <div class="card-footer" align="center">
+      <%= link_to 'Back', students_path, class: 'btn btn-secondary' %>
+    </div>
+    
+  </div>
+</div>

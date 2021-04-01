@@ -1,0 +1,61 @@
+<br>
+<div class="container">
+  <div class="card">
+
+    <div class="card-header" align="center">
+      <h1 align="center">Data Siswa</h1>
+    </div>
+    <div class="card-body">
+      <p>
+        <strong>NIS:</strong>
+        <%= @student.student_id %>
+      </p>
+
+      <p>
+        <strong>Nama:</strong>
+        <%= @student.name %>
+      </p>
+
+      <p>
+        <strong>Jenis Kelamin:</strong>
+        <%= @student.gender %>
+      </p>
+
+      <p>
+        <strong>Tempat Lahir:</strong>
+        <%= @student.place_of_birth %>
+      </p>
+
+      <p>
+        <strong>Tanggal Lahir:</strong>
+        <%= @student.date_of_birth %>
+      </p>
+
+      <p>
+        <strong>Alamat:</strong>
+        <%= @student.address %>
+      </p>
+
+      <p>
+        <strong>Asal Sekolah:</strong>
+        <%= @student.school_origin %>
+      </p>
+
+      <p>
+        <strong>Kelas:</strong>
+        <%= @student.grade %>
+      </p>
+
+      <p>
+        <strong>Jurusan:</strong>
+        <%= @student.major %>
+      </p>
+    </div>
+
+    <div class="card-footer" align="center">
+      <%= link_to 'Edit', edit_student_path(@student), class: 'btn btn-warning' %> |
+      <%= link_to 'Back', students_path, class: 'btn btn-secondary' %>
+    </div>
+    
+  </div>
+</div>

@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  student_id: 1
+  name: MyString
+  gender: MyString
+  place_of_birth: MyString
+  date_of_birth: 2021-03-31
+  address: MyString
+  school_origin: MyString
+  grade: MyString
+  major: MyString
+
+two:
+  student_id: 1
+  name: MyString
+  gender: MyString
+  place_of_birth: MyString
+  date_of_birth: 2021-03-31
+  address: MyString
+  school_origin: MyString
+  grade: MyString
+  major: MyString
